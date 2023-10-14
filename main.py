@@ -45,7 +45,7 @@ try:
         timeZoneName = data["timeZoneName"]
 
         current_time = get_current_time(unixTimestamp, dstOffset, rawOffset)
-        print(current_time, timeZoneName)
+        print(f"Current time at the specified coordinates is:\n{current_time} - {timeZoneName}")
     else:
         # Any non-200 code response is error
         print("Error: API request failed with status code", response.status_code)
