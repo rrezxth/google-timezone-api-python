@@ -1,1 +1,3 @@
-Get current time using Google's Timezone API and Python's built-in Unixtimestamp.
+First time playing around json's. 
+
+Using Google Timezone API and Python Unixtimestamp to find local time.
